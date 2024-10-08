@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resep Rendang Daging</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Gaya untuk judul dengan border */
+        h1 {
+            text-align: center;
+            border: 3px solid #8b0000;
+            padding: 10px;
+            background-color: #ffe4e1;
+            color: #800000;
+        }
+
+        /* Gaya untuk gambar di tengah */
+        .resep-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 300px;
+        }
+
+        /* Gaya untuk list bahan */
+        .bahan {
+            background-color: #e0f7fa;
+            padding: 10px;
+            margin: 20px;
+            color: #006064;
+        }
+
+        /* Gaya untuk list cara membuat */
+        .cara-membuat {
+            background-color: #fff3e0;
+            padding: 10px;
+            margin: 20px;
+            color: #e65100;
+        }
+
+        /* Gaya untuk list items */
+        ul {
+            list-style-type: square;
+            color: #006400;
+        }
+
+        /* Gaya untuk tombol */
+        button {
+            margin: 10px;
+            padding: 10px;
+            background-color: #8b0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #b22222;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Resep Rendang Daging</h1>
+
+    <img src="Foto Rendang.jpg" alt="Rendang Daging" class="resep-img">
+
+    <!-- Daftar bahan -->
+    <div class="bahan">
+        <h2>Bahan-bahan:</h2>
+        <ul>
+            <li>1 kg daging sapi, potong sesuai selera</li>
+            <li>800 ml santan kental</li>
+            <li>4 lembar daun jeruk</li>
+            <li>2 batang serai, memarkan</li>
+            <li>3 lembar daun salam</li>
+            <li>2 cm lengkuas, memarkan</li>
+            <li>Garam dan gula secukupnya</li>
+            <li>Minyak untuk menumis</li>
+        </ul>
+    </div>
+
+    <!-- Daftar cara membuat -->
+    <div class="cara-membuat">
+        <h2>Cara Membuat:</h2>
+        <ul>
+            <li>Panaskan minyak, tumis bumbu halus bersama daun jeruk, serai, salam, dan lengkuas hingga harum.</li>
+            <li>Masukkan daging sapi, aduk hingga berubah warna.</li>
+            <li>Tuang santan, masak dengan api kecil sambil terus diaduk agar santan tidak pecah.</li>
+            <li>Masak hingga daging empuk dan bumbu meresap, aduk sesekali hingga kuah menyusut dan kering.</li>
+            <li>Sajikan rendang dengan nasi hangat.</li>
+        </ul>
+    </div>
+
+    <!-- Tombol cek -->
+    <button onclick="cekResep()">Cek Resep</button>
+    <button onclick="window.print()">Cetak</button>
+
+    <!-- Footer -->
+    <footer>
+        &copy; Copyright Triana Putri Oscindy 2024
+    </footer>
+
+    <script>
+        function cekResep() {
+            console.log("Resep Rendang Daging");
+        }
+    </script>
+</body>
+</html>
